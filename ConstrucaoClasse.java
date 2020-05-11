@@ -6,6 +6,12 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "ocurrences")
 
 public class Ocorrence {
+     private int oId;
+     private String oCreationDate;
+     private String oDescription;
+     private String oForwarding;
+     private int oGrade;
+    
 @PrimaryKey(autoGenerate = true)
     @NonNull
     @ColumnInfo(name = "ocurrenceId")
