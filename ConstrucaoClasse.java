@@ -74,3 +74,4 @@ public class Ocorrence {
         oGrade = grade;
         oCreationDate = creationDate;
     }
+}
